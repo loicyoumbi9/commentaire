@@ -20,3 +20,7 @@ with open('a.txt', 'r') as f1, open('result.txt', 'w') as f2:
 	
 	# Storing the result in result.txt file
 	f2.write(result)
+with open('result.txt', 'r') as f3, open('resultat_traiter.txt', 'w+') as f4 :
+	for line in f3:
+		if not line.isspace():
+            		f4.write(line)
