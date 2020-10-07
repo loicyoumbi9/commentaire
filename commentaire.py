@@ -2,7 +2,7 @@ import re
 
 exp = r'/\*.*\*/|//.*'
 
-with open('a.txt', 'r') as f1, open('result.txt', 'w') as f2:
+with open('output_file.txt', 'r') as f1, open('resultat.txt', 'w') as f2:
 
 	# Reading the file and remove inline comments (i.e /*-----*/ or //----------)
 	result = re.sub(exp, '', f1.read())
