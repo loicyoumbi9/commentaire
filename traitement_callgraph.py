@@ -2,7 +2,6 @@ import re
 from igraph import *
 from numpy import *
 from collections import defaultdict
-from igraph import *
 import numpy as np
 import pickle
 
